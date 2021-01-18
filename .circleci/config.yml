@@ -16,8 +16,6 @@ jobs:
           command: |
             python3 -m venv venv
             . venv/bin/activate
-            cd ..
-            cd ..
             pwd
             ls
             python 3 -m pip install -r requirements.txt
