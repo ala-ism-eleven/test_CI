@@ -16,6 +16,8 @@ jobs:
           command: |
             python3 -m venv venv
             . venv/bin/activate
+            cd ..
+            cd ..
             python 3 -m pip install -r requirements.txt
       # Step 3: run linter and tests
       - run:
